@@ -1,0 +1,108 @@
+Running SLURM prolog script on gold60.cluster.local
+===============================================================================
+Job started on Wed Oct  5 21:30:47 BST 2022
+Job ID          : 1851626
+Job name        : fang_GA.sh
+WorkDir         : /mainfs/home/zl2e22
+Command         : /mainfs/home/zl2e22/sh_files/fang_project/fang_GA.sh
+Partition       : serial
+Num hosts       : 1
+Num cores       : 20
+Num of tasks    : 20
+Hosts allocated : gold60
+Job Output Follows ...
+===============================================================================
+/mainfs/home/zl2e22/.conda/envs/codetest/lib/python3.9/site-packages/pygad/pygad.py:764: UserWarning: Starting from PyGAD 2.6.0, the callback_generation parameter is deprecated and will be removed in a later release of PyGAD. Please use the on_generation parameter instead.
+  if not self.suppress_warnings: warnings.warn("Starting from PyGAD 2.6.0, the callback_generation parameter is deprecated and will be removed in a later release of PyGAD. Please use the on_generation parameter instead.")
+/mainfs/home/zl2e22/.conda/envs/codetest/lib/python3.9/site-packages/pygad/pygad.py:820: UserWarning: Use the 'save_best_solutions' parameter with caution as it may cause memory overflow when either the number of generations or number of genes is large.
+  if not self.suppress_warnings: warnings.warn("Use the 'save_best_solutions' parameter with caution as it may cause memory overflow when either the number of generations or number of genes is large.")
+/mainfs/home/zl2e22/.conda/envs/codetest/lib/python3.9/site-packages/pygad/pygad.py:828: UserWarning: Use the 'save_solutions' parameter with caution as it may cause memory overflow when either the number of generations, number of genes, or number of solutions in population is large.
+  if not self.suppress_warnings: warnings.warn("Use the 'save_solutions' parameter with caution as it may cause memory overflow when either the number of generations, number of genes, or number of solutions in population is large.")
+Generation :  1
+Fitness of the best solution : (array([15, 48, 30, 19, 10, 10,  8]), -1.4881502717550887, 5)
+Generation :  2
+Fitness of the best solution : (array([ 7, 45,  7, 23, 13,  7, 11]), -1.465985795984741, 90)
+Generation :  3
+Fitness of the best solution : (array([ 7, 45, 10, 19, 10, 10,  8]), -1.4633307111776201, 92)
+Generation :  4
+Fitness of the best solution : (array([10, 33,  7,  8,  8, 18,  7]), -1.4638554447387127, 97)
+Generation :  5
+Fitness of the best solution : (array([ 7, 45,  7,  8, 12, 14,  7]), -0.4487329447502983, 68)
+Generation :  6
+Fitness of the best solution : (array([15, 19, 28,  7, 13, 10,  8]), -0.49872308248673103, 49)
+Generation :  7
+Fitness of the best solution : (array([10, 42,  7,  7, 13, 10, 11]), -0.45908771435874707, 69)
+Generation :  8
+Fitness of the best solution : (array([ 9, 48,  7,  8, 12,  8,  8]), -0.4449958896471695, 44)
+Generation :  9
+Fitness of the best solution : (array([ 9, 48,  7,  8, 12,  8,  8]), -0.4472412858626633, 0)
+Generation :  10
+Fitness of the best solution : (array([ 9, 48,  7,  8, 12,  8,  8]), -0.4449958896471695, 0)
+Generation :  11
+Fitness of the best solution : (array([ 7, 45,  7,  8, 12, 14,  7]), -1.4354949237548165, 35)
+Generation :  12
+Fitness of the best solution : (array([ 9, 48,  7,  8, 14,  7,  7]), -0.4438257590211171, 21)
+Generation :  13
+Fitness of the best solution : (array([ 7, 45,  7,  8, 12,  7,  7]), -0.4487329447502983, 97)
+Generation :  14
+Fitness of the best solution : (array([ 7, 48,  7,  8, 12,  7, 11]), -0.44488519293930273, 73)
+Generation :  15
+Fitness of the best solution : (array([ 9, 48,  7,  8, 14,  7,  7]), -0.4438257590211171, 0)
+Generation :  16
+Fitness of the best solution : (array([ 9, 48,  7,  8, 14,  7,  7]), -0.4438257590211171, 0)
+Generation :  17
+Fitness of the best solution : (array([ 9, 46,  7,  8,  8,  7,  7]), -1.4371495792089106, 63)
+Generation :  18
+Fitness of the best solution : (array([ 9, 48,  7,  8, 14,  7,  7]), -0.4438257590211171, 0)
+Generation :  19
+Fitness of the best solution : (array([ 9, 48,  7,  8, 14,  7,  7]), -0.4438257590211171, 0)
+Generation :  20
+Fitness of the best solution : (array([ 9, 46,  7,  8,  8, 15,  7]), -0.4444356644690204, 8)
+Generation :  21
+Fitness of the best solution : (array([ 7, 47,  8,  8, 10,  7,  7]), -0.44879068970570013, 32)
+Generation :  22
+Fitness of the best solution : (array([ 7, 48,  8, 15,  8,  7,  7]), -0.4446562291194317, 12)
+Generation :  23
+Fitness of the best solution : (array([ 9, 48,  7,  8, 14,  7,  7]), -0.4438257590211171, 0)
+Generation :  24
+Fitness of the best solution : (array([ 9, 48,  7,  8, 14,  7,  7]), -0.4438257590211171, 0)
+Generation :  25
+Fitness of the best solution : (array([ 9, 48,  7,  8, 14,  7,  7]), -0.4438257590211171, 0)
+Generation :  26
+Fitness of the best solution : (array([ 9, 48,  7,  8, 14,  7,  7]), -0.4438257590211171, 0)
+Generation :  27
+Fitness of the best solution : (array([ 9, 48,  7,  8, 14,  7,  7]), -0.4438257590211171, 0)
+Generation :  28
+Fitness of the best solution : (array([ 9, 48,  7,  8, 14,  7,  7]), -0.4438257590211171, 0)
+Generation :  29
+Fitness of the best solution : (array([ 7, 46,  7,  8, 10,  7,  7]), -0.4438257590211171, 48)
+Generation :  30
+/mainfs/home/zl2e22/.conda/envs/codetest/lib/python3.9/site-packages/pygad/pygad.py:3402: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  matplotlib.pyplot.show()
+/mainfs/home/zl2e22/.conda/envs/codetest/lib/python3.9/site-packages/pygad/pygad.py:3665: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  matplotlib.pyplot.show()
+Fitness of the best solution : (array([ 7, 45,  7,  8, 10,  7,  7]), -1.4326234501747117, 10)
+genetic_con
+0.14035234563057208 0.1517367066952725 0.4438257590211171
+0.4438257590211171
+[ 9 48  7  8 14  7  7]
+==============================================================================
+Running epilogue script on gold60.
+
+Submit time  : 2022-10-05T21:30:46
+Start time   : 2022-10-05T21:30:47
+End time     : 2022-10-05T21:46:03
+Elapsed time : 00:15:16 (Timelimit=2-12:00:00)
+
+Job ID: 1851626
+Cluster: i5
+User/Group: zl2e22/tr
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 20
+CPU Utilized: 04:10:27
+CPU Efficiency: 82.03% of 05:05:20 core-walltime
+Job Wall-clock time: 00:15:16
+Memory Utilized: 2.10 GB
+Memory Efficiency: 53.77% of 3.91 GB
+

@@ -1,0 +1,39 @@
+Running SLURM prolog script on gold56.cluster.local
+===============================================================================
+Job started on Fri Oct  7 00:10:57 BST 2022
+Job ID          : 1859302
+Job name        : fang_fminSL.sh
+WorkDir         : /mainfs/home/zl2e22
+Command         : /mainfs/home/zl2e22/sh_files/fang_project/fang_fminSL.sh
+Partition       : serial
+Num hosts       : 1
+Num cores       : 1
+Num of tasks    : 1
+Hosts allocated : gold56
+Job Output Follows ...
+===============================================================================
+The solution is:
+[0.07142857 0.5        0.07142857 0.07142857 0.07142857 0.14285714
+ 0.07142857]
+0.4377153892725263
+0.13864158748081473 0.14953690089585578 0.4377153892725263
+con
+==============================================================================
+Running epilogue script on gold56.
+
+Submit time  : 2022-10-07T00:10:28
+Start time   : 2022-10-07T00:10:57
+End time     : 2022-10-07T00:13:00
+Elapsed time : 00:02:03 (Timelimit=2-12:00:00)
+
+Job ID: 1859302
+Cluster: i5
+User/Group: zl2e22/tr
+State: COMPLETED (exit code 0)
+Cores: 1
+CPU Utilized: 00:02:02
+CPU Efficiency: 99.19% of 00:02:03 core-walltime
+Job Wall-clock time: 00:02:03
+Memory Utilized: 130.05 MB
+Memory Efficiency: 3.25% of 3.91 GB
+
